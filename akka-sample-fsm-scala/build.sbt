@@ -12,3 +12,5 @@ libraryDependencies ++= Seq(
 licenses := Seq(
   ("CC0", url("http://creativecommons.org/publicdomain/zero/1.0"))
 )
+
+libraryDependencies += "org.scalatest" %% "scalatest" % "3.2.17" % Test

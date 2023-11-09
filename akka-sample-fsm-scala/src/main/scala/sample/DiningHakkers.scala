@@ -207,7 +207,9 @@ object DiningHakkers {
     Behaviors.empty
   }
 
+  def actorSystem() = ActorSystem(DiningHakkers(), "DiningHakkers")
+
   def main(args: Array[String]): Unit = {
-    ActorSystem(DiningHakkers(), "DiningHakkers")
+    actorSystem()
   }
 }
